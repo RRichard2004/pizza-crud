@@ -1,0 +1,71 @@
+
+.link{
+    text-decoration: none;
+}
+
+.pizzaPng{
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    margin-top: auto;
+    
+}
+.card{
+    width: 400px;
+    padding:10px;
+    margin: 10px;
+
+}
+.pizzaName{
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+.pizzaDisclaimer{
+font-size: small;
+color: gray;
+margin-bottom: 0;
+}
+.btn{
+    width: 45%;
+    height: 40px;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+  
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title{
+    margin:10px;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 255, 0.458);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    text-decoration: none;
+    background-color: white;
+    margin: 1px; /* Updated */
+    height: 40px;
+    width: fit-content;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: none;
+    text-align: center;
+    line-height: 35px;
+    margin-right:100%;
+}
